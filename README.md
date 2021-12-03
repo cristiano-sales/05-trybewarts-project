@@ -409,7 +409,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Existe um elemento `option` com `text` e `value` igual a `Gitnória` e com o `id` igual a `gitnoria-house`
 * Existe um elemento `option` com `text` e `value` igual a `Reactpuff` e com o `id` igual a `reactpuff-house`
 * Existe um elemento `option` com `text` e `value` igual a `Corvinode` e com o `id` igual a `corvinode-house`
-* Existe um elemento `option` com `text` e `value` igual a `Pytherina` e com o `id` igual a `pytherina-house`
+* Existe um elemento `option` com `text` e `value` igual a `n` e com o `id` igual a `pytherina-house`
 
 ### 10. Posicione os campos de `Nome` e `Sobrenome` para que fiquem em linha
 
