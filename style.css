@@ -9,3 +9,12 @@
   display: flex;
   height: 25%;
 }
+
+main {
+  display: flex;
+}
+
+main form {
+  display: flex;
+  width: 675px;
+}
