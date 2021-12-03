@@ -28,9 +28,21 @@ main form {
 }
 
 #input-name {
-  width: 45%;
+  width: 40%;
+  height: 40px;
 }
 
 #input-lastname {
-  width: 45%;
+  width: 40%;
+  height: 40px;
+}
+
+#input-email {
+  width: 40%;
+  height: 40px;
+}
+
+#house {
+  width: 42%;
+  height: 43px;
 }

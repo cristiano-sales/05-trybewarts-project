@@ -1,7 +1,7 @@
 const header = document.querySelector('header');
 const imgHeader = document.querySelector('trybewarts-header-logo');
 const form = document.querySelector('trybewarts-login');
-const login = document.getElementById('input-email');
+const login = document.getElementById('input-email-cabecalho');
 const senha = document.getElementById('input-senha');
 const button = document.getElementById('btn1');
 
