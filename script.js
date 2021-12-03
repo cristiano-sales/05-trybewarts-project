@@ -1,5 +1,5 @@
 const header = document.querySelector('header');
-const img = document.querySelector('trybewarts-header-logo');
+const imgHeader = document.querySelector('trybewarts-header-logo');
 const form = document.querySelector('trybewarts-login');
 const login = document.getElementById('input-email');
 const senha = document.getElementById('input-senha');
@@ -12,6 +12,7 @@ function checkLogin () {
         alert('Email ou senha inválidos.');
     }
 }
+
 
 
 
