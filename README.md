@@ -479,7 +479,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 
 #### Observações técnicas:
 
-* Um elemento com o `id` **label-rate** e o texto **"Como você avalia a Trybewarts?"** deverá ser criado
+* Um elemento com o `id` **label-rate** e o texto **" ?"** deverá ser criado
 * O campo deve ser formado por dez radio buttons, contendo as opções de 1 a 10
 * Os radio buttons devem ter o atributo `value` com o valor de suas opções de 1 a 10.
 * Os radio buttons devem ter o atributo `name` com o valor **"rate"**
@@ -496,9 +496,10 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 ### 15. Crie uma textarea com o id `textarea` e uma label com a classe `textarea` contendo o número máximo de caracteres igual à 500
 
 #### Observações técnicas:
-
-* Uma label com a classe `textarea` e o texto **"Deixe seu comentário:"** deverá ser criado
+￼ Promises
+e `textarea` e o texto **"Deixe seu comentário:"** deverá ser criado
 * O campo `textarea` deverá ter o máximo de 500 caracteres
+￼ Promises
 
 #### O que será verificado:
 
@@ -515,6 +516,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Posicione a checkbox ao lado da label
 
 #### O que será verificado:
+￼ Promises
 
 * Existe uma label com o id `label-infos` que possui o texto `Você concorda com o uso das informações acima?`
 * Existe um input do tipo `checkbox` com o id `agreement`

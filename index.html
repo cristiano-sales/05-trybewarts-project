@@ -48,7 +48,7 @@
             <option id="pytherina-house" value="Pytherina">Pytherina</option>
           </select>
         </div>
-        <h2 id="label-family">Qual sua família?</h2>
+        <h2>Formulário de Avaliação</h2>
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <div>
           <input type="checkbox" id="conteudo1" name="conteudo1" value="HoFs" />
@@ -78,7 +78,7 @@
             <label id="label-family">Qual sua família?</label>
         </div>
         <div>
-            <input id="radio-front" type="radio" name="family" value="Frontend"/>
+            <input id="radio-1" type="radio" name="family" value="Frontend"/>
             <label for="input-frontend">Frontend</label>
         </div>
         <div>
@@ -89,7 +89,7 @@
             <input id="radio-3" type="radio" name="family" value="FullStack"/>
             <label for="input-backend">FullStack</label>
         </div>
-        <div>
+        <div>   
         <label id="label-rate">Como você avalia a Trybewarts?</label>
           <input id="radio-1" type="radio" name="rate" value="1"/>
           <label for="input-frontend">1</label>
@@ -112,9 +112,13 @@
           <input id="radio-10" type="radio" name="rate" value="10"/>
           <label for="input-backend">10</label>
         </div>
-        <label class="textarea">Deixe seu comentário:</label>
-        <textarea maxlength="500" id="textarea" cols="50" rows="10"></textarea>
-        <input type="checkbox">
+            <label class="textarea">Deixe seu comentário:</label>
+            <textarea maxlength="500" id="textarea" cols="50" rows="10"></textarea>
+        <div>
+            <input type="checkbox" id="agreement">
+            <label id="label-infos">Você concorda com o uso das informações acima?</label>
+        </div>
+        <button id="submit-btn" type="submit">Enviar</button>
       </form>
       <img
         id="trybewarts-forms-logo"
