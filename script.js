@@ -19,6 +19,7 @@ function checkedBox() {
     submitButton.disabled = true;
   }
 }
+//[Referência: Lucas Silva on Youtube] https://www.youtube.com/watch?v=0X12LKGWcmE
 $(function() {
   function limitaCaracteres(textarea, counter, limit) {
       $('.'+counter).text(limit+' restantes');
