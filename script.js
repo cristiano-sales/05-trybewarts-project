@@ -19,6 +19,27 @@ function checkedBox() {
     submitButton.disabled = true;
   }
 }
+$(function() {
+  function limitaCaracteres(textarea, counter, limit) {
+      $('.'+counter).text(limit+' restantes');
+      let left;
+      $('.'+textarea).on('keyup', function(e){
+          let qtdCaracteres = $(this).val().length;
+          left = limit-qtdCaracteres;
+          if(left <= 0) {
+              left = 0;
+              let textoAtual = $(this).val();
+              let novoTexto = '';
+              for(let i = 0; i < limit; i += 1) {
+                  novoTexto += textoAtual[i];
+              }
+              $(this).val(novoTexto);
+          }
+          $('.'+counter).text(left+' restantes');
+      })
+  }
+limitaCaracteres('text1', 'count1', 500);
+});
 function listeners() {
   button.addEventListener('click', checkLogin);
   agreement.addEventListener('click', checkedBox);
